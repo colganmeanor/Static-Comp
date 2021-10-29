@@ -1,0 +1,50 @@
+/* ~~~~~ GLOBAL RULES ~~~~~ */
+
+
+* {
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    border: solid black;
+    background-color: #2b2b2b;
+    color: white;
+    padding: 2%;
+    margin: -1%;
+}
+
+
+body {
+    background: whitesmoke;
+}
+
+.sectionTitle {
+    margin: 7%;
+    font-size: large;
+}
+
+
+
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: solid pink;
+    margin-bottom: 2%;
+}
+
+.cardHead {
+
+}
+
+.cardBody {
+
+
+}

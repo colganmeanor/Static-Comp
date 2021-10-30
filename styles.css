@@ -28,6 +28,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   box-sizing: border-box;
+  margin: 1%
 }
 
 .card {
@@ -60,14 +61,14 @@ body {
   width: 10%;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
   .cardContainer {
     display: flex;
   }
 
   .card {
     display: flex;
-    width: 40%;
+    width: 35%;
   }
 }
 
@@ -80,6 +81,6 @@ body {
 
   .card {
     display: flex;
-    width: 40%;
+    width: 50%;
   }
 }

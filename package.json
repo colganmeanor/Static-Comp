@@ -1,0 +1,22 @@
+{
+  "name": "static-comp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colganmeanor/Static-Comp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colganmeanor/Static-Comp/issues"
+  },
+  "homepage": "https://github.com/colganmeanor/Static-Comp#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}

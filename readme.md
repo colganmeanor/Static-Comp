@@ -24,6 +24,18 @@ Mod1 2108 FE
 ## Abstract
 
   The purpose of this project is to recreate a given static Comp from scratch. We were only given the following image as a guide for our projects, and instructed to create this comp to the best of our ability.
+  
+  The image provided in the project spec:
+  ![static-comp-challenge-2](https://user-images.githubusercontent.com/87510749/139604518-6e8724b4-c3fb-44e6-8ea5-c9d63c69f94a.jpeg)
+
+
+  Here is my version of this project (Desktop View):
+  ![Static Comp - Colgan](https://user-images.githubusercontent.com/87510749/139604561-b31f8847-a4c1-4217-803c-e5a9661a06ae.png)
+
+  Here is the mobile view version of this project:
+  ![Static Comp (Mobile) -Colgan](https://user-images.githubusercontent.com/87510749/139604589-656e9b27-a928-4ef8-a40c-9137d1dd2967.png)
+
+
 
   This project was created primarily with HTML and CSS. A normalize.css file was used in this project, via the normalize.css NPM dependency.
 

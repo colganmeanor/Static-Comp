@@ -121,14 +121,58 @@ body {
   width: 100%;
   box-sizing: border-box;
   margin-bottom: -8%;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/stock-man.jpg');
+  /* background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ), url('images/stock-man.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center; */
   /* filter: brightness(0.6); */
 }
 
-.cardHead::before {
+.cardOne {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ), url('images/stock-man.jpg');
+  background-size: cover;
+  background-position: center;
+}
 
+.cardTwo {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ), url('images/stock-man2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cardThree {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ), url('images/stock-man3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cardFour {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ), url('images/stock-woman.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cardFive {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ), url('images/stock-woman2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cardSix {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ), url('images/stock-man4.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cardSeven {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ), url('images/stock-woman3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.cardEight {
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7) ), url('images/stock-man5.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .forwardImageIcon {

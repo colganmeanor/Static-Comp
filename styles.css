@@ -1,16 +1,83 @@
 /* ~~~~~ GLOBAL RULES ~~~~~ */
 * {
   box-sizing: border-box;
+  font-family: 'Merriweather', serif;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
-  border: solid black;
+  /* border: solid black; */
   background-color: #2b2b2b;
   color: white;
   padding: 2%;
+  padding-top: 4%;
+  padding-bottom: 0%;
   margin: -1%;
+}
+
+.leftHead {
+  display: flex;
+  flex-direction: row;
+  gap: 35%;
+  margin-left: -29%;
+  white-space: nowrap;
+  align-items: center;
+  align-content: space-around;
+  justify-content: flex-start;
+  padding-left: 1%
+}
+
+.sharing {
+  display: flex;
+  padding-left: 1%
+}
+
+.shareIcon {
+  height: auto;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.lists {
+  display: flex;
+}
+
+.listIcon {
+  height: auto;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.personal {
+  display: flex;
+}
+
+.personIcon {
+  height: auto;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.rightHead {
+    display: flex;
+    margin-right: -29%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.account {
+  display: flex;
+}
+
+.webTitle {
+    font-size: xxx-large;
+    margin-top: -4%;
+    margin-bottom: 6%;
+}
+
+.accountText {
+    color: #27a5e8;
 }
 
 body {
@@ -18,42 +85,43 @@ body {
 }
 
 .sectionTitle {
-  margin: 7%;
-  font-size: large;
+  margin: 2%;
+  font-size: xx-large;
+  font-weight: 500;
+  color: dimgray;
 }
 
+/* Default Card Rules */
 .cardContainer {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
   box-sizing: border-box;
-  margin: 1%
 }
 
 .card {
-  border: solid pink;
-  width: 25%;
+  width: 22.5%;
   height: auto;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* margin: ; */
+  margin-bottom: 1%;
 }
 
 .cardHead {
   display: flex;
   justify-content: space-between;
-  height: auto;
-  border: solid;
+  height: 150px;
   width: 100%;
   box-sizing: border-box;
-}
-
-.cardBody {
-  border: solid green;
-  height: auto;
-  width: 100%;
-  box-sizing: border-box;
+  margin-bottom: -8%;
+  background-image: url('images/stock-man.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.6);
 }
 
 .forwardImageIcon {
@@ -61,6 +129,65 @@ body {
   width: 10%;
 }
 
+.viewCount {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  justify-content: flex-start;
+  padding-block: 10%;
+  margin-top: -10%
+}
+
+.viewTitle {
+  /* color: white; */
+}
+
+.viewNum {
+  margin-top: -25%;
+}
+
+.cardBody {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  padding: 8%;
+  margin-bottom: -8%;
+}
+
+.recipName {
+  font-weight: bold;
+  margin-bottom: -2%;
+}
+
+.cardDate {
+  font-weight: lighter;
+  font-size: x-small;
+}
+
+.playlistURL {
+  font-size: 65%;
+  background: #8080804a;
+}
+
+.playlistTitle {
+  font-size: x-small;
+  margin-bottom: -3%;
+}
+
+.playlistName {}
+
+.attachmentsTitle {
+  font-size: x-small;
+  margin-bottom: -7%;
+}
+
+.attachementsNum {
+  font-size: x-large;
+  color: #27a5e8
+}
+
+/* 1200 PX Card Rules */
 @media (max-width: 1200px) {
   .cardContainer {
     display: flex;
@@ -70,8 +197,25 @@ body {
     display: flex;
     width: 35%;
   }
+
+  .header {
+
+  }
+
+  .leftHead {
+    margin-left: -10%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .rightHead {
+    margin-right: -5%;
+    display: flex;
+    align-items: flex-end;
+  }
 }
 
+/* 700 PX Card Rules */
 @media (max-width: 700px) {
   .cardContainer {
     display: flex;
@@ -81,6 +225,16 @@ body {
 
   .card {
     display: flex;
-    width: 50%;
+    width: 75%;
+  }
+
+  .header {display: flex;}
+
+  .leftHead {display: flex;flex-direction: column;align-items: flex-start;}
+
+  .rightHead {display: flex;align-items: flex-end;}
+
+  .webTitle {
+    font-size: x-large;
   }
 }

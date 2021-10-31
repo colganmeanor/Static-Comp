@@ -6,7 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
   <link rel="stylesheet" href="styles.css">
   <title>2Win!</title>
@@ -14,17 +16,29 @@
 
 <body>
   <header class="header">
-    <div>
-      <p>Shares</p>
+    <div class="leftHead">
+      <div class = 'sharing'>
+        <img src ='images/share.svg' class='shareIcon'>
+        <p>SHARES</p>
+      </div>
+      <div class = 'lists'>
+        <img src ='images/bulleted-list.svg' class='listIcon'>
+        <p>PLAYLISTS</p>
+      </div>
+      <div class = 'personal'>
+        <img src ='images/person.svg' class='personIcon'>
+        <p>PERSONAL VIDEOS</p>
+      </div>
     </div>
-    <div>
-      <p>Playlists</p>
-    </div>
-    <div>
-      <p>Personal Videos</p>
-    </div>
-    <div>
-      <p>2Win!</p>
+    <div class="rightHead">
+      <div class ='account'>
+        <img src ='images/account-person.svg' class='accountIcon'>
+        <p class = 'accountText'>Admin Username</p>
+        <img src ='images/drop-down-arrow.svg' class='dropDownArrow'>
+      </div>
+      <div>
+        <p class = 'webTitle'>2Win!</p>
+      </div>
     </div>
   </header>
   <main>
@@ -36,122 +50,146 @@
     <section class='cardContainer'>
       <article class='card'>
         <div class='cardHead'>
-          <img src = 'images/forward-46.svg' class = 'forwardImageIcon'>
-          <p> Views 09 </p>
+          <img src = 'images/forward-shortcut.svg' class = 'forwardImageIcon'>
+          <div class = 'viewCount'>
+            <p class = 'viewTitle'> Views </p>
+            <p class = 'viewNum'> 09 </p>
+          </div>
         </div>
         <div class='cardBody'>
-          <p>Recipient's Name</p>
-          <p> Monday 01/23/21 11:45am </p>
-          <p> insert URL here </p>
-          <p>Playlist</p>
-          <p>Name of Playlist</p>
-          <p>Attachments</p>
-          <p>04</p>
+          <p class = 'recipName'>Recipient's Name</p>
+          <p class = 'cardDate'> Monday 01/23/21 11:45am </p>
+          <p class = 'playlistURL'> http://2win.2winstage.com/p/recipients_namehere </p>
+          <p class = 'playlistTitle'>PLAYLIST</p>
+          <p class = 'playlistName'>Name of Playlist</p>
+          <p class = 'attachmentsTitle'>ATTACHMENTS</p>
+          <p class = 'attachementsNum'>04</p>
         </div>
       </article>
       <article class='card'>
         <div class='cardHead'>
-          <img src = 'images/forward-46.svg' class = 'forwardImageIcon'>
-          <p> Views 09 </p>
+          <img src = 'images/forward-shortcut.svg' class = 'forwardImageIcon'>
+          <div class = 'viewCount'>
+            <p class = 'viewTitle'> Views </p>
+            <p class = 'viewNum'> 09 </p>
+          </div>
         </div>
         <div class='cardBody'>
-          <p>Recipient's Name</p>
-          <p> Monday 01/23/21 11:45am </p>
-          <p> insert URL here </p>
-          <p>Playlist</p>
-          <p>Name of Playlist</p>
-          <p>Attachments</p>
-          <p>04</p>
+          <p class = 'recipName'>Recipient's Name</p>
+          <p class = 'cardDate'> Monday 01/23/21 11:45am </p>
+          <p class = 'playlistURL'> http://2win.2winstage.com/p/recipients_namehere </p>
+          <p class = 'playlistTitle'>PLAYLIST</p>
+          <p class = 'playlistName'>Name of Playlist</p>
+          <p class = 'attachmentsTitle'>ATTACHMENTS</p>
+          <p class = 'attachementsNum'>04</p>
         </div>
       </article>
       <article class='card'>
         <div class='cardHead'>
-          <img src = 'images/forward-46.svg' class = 'forwardImageIcon'>
-          <p> Views 09 </p>
+          <img src = 'images/forward-shortcut.svg' class = 'forwardImageIcon'>
+          <div class = 'viewCount'>
+            <p class = 'viewTitle'> Views </p>
+            <p class = 'viewNum'> 09 </p>
+          </div>
         </div>
         <div class='cardBody'>
-          <p>Recipient's Name</p>
-          <p> Monday 01/23/21 11:45am </p>
-          <p> insert URL here </p>
-          <p>Playlist</p>
-          <p>Name of Playlist</p>
-          <p>Attachments</p>
-          <p>04</p>
+          <p class = 'recipName'>Recipient's Name</p>
+          <p class = 'cardDate'> Monday 01/23/21 11:45am </p>
+          <p class = 'playlistURL'> http://2win.2winstage.com/p/recipients_namehere </p>
+          <p class = 'playlistTitle'>PLAYLIST</p>
+          <p class = 'playlistName'>Name of Playlist</p>
+          <p class = 'attachmentsTitle'>ATTACHMENTS</p>
+          <p class = 'attachementsNum'>04</p>
         </div>
       </article>
       <article class='card'>
         <div class='cardHead'>
-          <img src = 'images/forward-46.svg' class = 'forwardImageIcon'>
-          <p> Views 09 </p>
+          <img src = 'images/forward-shortcut.svg' class = 'forwardImageIcon'>
+          <div class = 'viewCount'>
+            <p class = 'viewTitle'> Views </p>
+            <p class = 'viewNum'> 09 </p>
+          </div>
         </div>
         <div class='cardBody'>
-          <p>Recipient's Name</p>
-          <p> Monday 01/23/21 11:45am </p>
-          <p> insert URL here </p>
-          <p>Playlist</p>
-          <p>Name of Playlist</p>
-          <p>Attachments</p>
-          <p>04</p>
+          <p class = 'recipName'>Recipient's Name</p>
+          <p class = 'cardDate'> Monday 01/23/21 11:45am </p>
+          <p class = 'playlistURL'> http://2win.2winstage.com/p/recipients_namehere </p>
+          <p class = 'playlistTitle'>PLAYLIST</p>
+          <p class = 'playlistName'>Name of Playlist</p>
+          <p class = 'attachmentsTitle'>ATTACHMENTS</p>
+          <p class = 'attachementsNum'>04</p>
         </div>
       </article>
       <article class='card'>
         <div class='cardHead'>
-          <img src = 'images/forward-46.svg' class = 'forwardImageIcon'>
-          <p> Views 09 </p>
+          <img src = 'images/forward-shortcut.svg' class = 'forwardImageIcon'>
+          <div class = 'viewCount'>
+            <p class = 'viewTitle'> Views </p>
+            <p class = 'viewNum'> 09 </p>
+          </div>
         </div>
         <div class='cardBody'>
-          <p>Recipient's Name</p>
-          <p> Monday 01/23/21 11:45am </p>
-          <p> insert URL here </p>
-          <p>Playlist</p>
-          <p>Name of Playlist</p>
-          <p>Attachments</p>
-          <p>04</p>
+          <p class = 'recipName'>Recipient's Name</p>
+          <p class = 'cardDate'> Monday 01/23/21 11:45am </p>
+          <p class = 'playlistURL'> http://2win.2winstage.com/p/recipients_namehere </p>
+          <p class = 'playlistTitle'>PLAYLIST</p>
+          <p class = 'playlistName'>Name of Playlist</p>
+          <p class = 'attachmentsTitle'>ATTACHMENTS</p>
+          <p class = 'attachementsNum'>04</p>
         </div>
       </article>
       <article class='card'>
         <div class='cardHead'>
-          <img src = 'images/forward-46.svg' class = 'forwardImageIcon'>
-          <p> Views 09 </p>
+          <img src = 'images/forward-shortcut.svg' class = 'forwardImageIcon'>
+          <div class = 'viewCount'>
+            <p class = 'viewTitle'> Views </p>
+            <p class = 'viewNum'> 09 </p>
+          </div>
         </div>
         <div class='cardBody'>
-          <p>Recipient's Name</p>
-          <p> Monday 01/23/21 11:45am </p>
-          <p> insert URL here </p>
-          <p>Playlist</p>
-          <p>Name of Playlist</p>
-          <p>Attachments</p>
-          <p>04</p>
+          <p class = 'recipName'>Recipient's Name</p>
+          <p class = 'cardDate'> Monday 01/23/21 11:45am </p>
+          <p class = 'playlistURL'> http://2win.2winstage.com/p/recipients_namehere </p>
+          <p class = 'playlistTitle'>PLAYLIST</p>
+          <p class = 'playlistName'>Name of Playlist</p>
+          <p class = 'attachmentsTitle'>ATTACHMENTS</p>
+          <p class = 'attachementsNum'>04</p>
         </div>
       </article>
       <article class='card'>
         <div class='cardHead'>
-          <img src = 'images/forward-46.svg' class = 'forwardImageIcon'>
-          <p> Views 09 </p>
+          <img src = 'images/forward-shortcut.svg' class = 'forwardImageIcon'>
+          <div class = 'viewCount'>
+            <p class = 'viewTitle'> Views </p>
+            <p class = 'viewNum'> 09 </p>
+          </div>
         </div>
         <div class='cardBody'>
-          <p>Recipient's Name</p>
-          <p> Monday 01/23/21 11:45am </p>
-          <p> insert URL here </p>
-          <p>Playlist</p>
-          <p>Name of Playlist</p>
-          <p>Attachments</p>
-          <p>04</p>
+          <p class = 'recipName'>Recipient's Name</p>
+          <p class = 'cardDate'> Monday 01/23/21 11:45am </p>
+          <p class = 'playlistURL'> http://2win.2winstage.com/p/recipients_namehere </p>
+          <p class = 'playlistTitle'>PLAYLIST</p>
+          <p class = 'playlistName'>Name of Playlist</p>
+          <p class = 'attachmentsTitle'>ATTACHMENTS</p>
+          <p class = 'attachementsNum'>04</p>
         </div>
       </article>
       <article class='card'>
         <div class='cardHead'>
-          <img src = 'images/forward-46.svg' class = 'forwardImageIcon'>
-          <p> Views 09 </p>
+          <img src = 'images/forward-shortcut.svg' class = 'forwardImageIcon'>
+          <div class = 'viewCount'>
+            <p class = 'viewTitle'> Views </p>
+            <p class = 'viewNum'> 09 </p>
+          </div>
         </div>
         <div class='cardBody'>
-          <p>Recipient's Name</p>
-          <p> Monday 01/23/21 11:45am </p>
-          <p> insert URL here </p>
-          <p>Playlist</p>
-          <p>Name of Playlist</p>
-          <p>Attachments</p>
-          <p>04</p>
+          <p class = 'recipName'>Recipient's Name</p>
+          <p class = 'cardDate'> Monday 01/23/21 11:45am </p>
+          <p class = 'playlistURL'> http://2win.2winstage.com/p/recipients_namehere </p>
+          <p class = 'playlistTitle'>PLAYLIST</p>
+          <p class = 'playlistName'>Name of Playlist</p>
+          <p class = 'attachmentsTitle'>ATTACHMENTS</p>
+          <p class = 'attachementsNum'>04</p>
         </div>
       </article>
     </section>

@@ -5,13 +5,29 @@
 }
 
 .header {
-  display: flex;
-  justify-content: space-around;
-  border: solid black;
-  background-color: #2b2b2b;
-  color: white;
-  padding: 2%;
-  margin: -1%;
+    display: flex;
+    justify-content: space-around;
+    border: solid black;
+    background-color: #2b2b2b;
+    color: white;
+    padding: 2%;
+    padding-top: 4%;
+    padding-bottom: 0%;
+    margin: -1%;
+}
+
+.leftHead {
+    display: flex;
+    flex-direction: row;
+    gap: 35%;
+    margin-left: -28%;
+    white-space: nowrap;
+}
+
+.rightHead {
+    display: flex;
+    margin-right: -29%;
+    flex-direction: column;
 }
 
 body {
@@ -19,8 +35,10 @@ body {
 }
 
 .sectionTitle {
-  margin: 7%;
-  font-size: large;
+    margin: 2%;
+    font-size: xx-large;
+    font-weight: 500;
+    color: dimgray;
 }
 
 /* Default Card Rules */
@@ -31,18 +49,16 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   box-sizing: border-box;
-  margin: 1%
 }
 
 .card {
-    border: solid black 0.1px;
-    width: 24.5%;
+    width: 22.5%;
     height: auto;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: ;
+    /* margin: ; */
     margin-bottom: 1%;
 }
 
@@ -50,13 +66,13 @@ body {
     display: flex;
     justify-content: space-between;
     height: 150px;
-    /* border: solid; */
     width: 100%;
     box-sizing: border-box;
-    /* margin-bottom: 10%; */
+    margin-bottom: -8%;
     background-image: url('images/stock-man.jpg');
     background-size: cover;
     background-position: center;
+    filter: brightness(0.6);
 }
 
 .forwardImageIcon {
@@ -65,15 +81,30 @@ body {
 }
 
 .viewCount {
-
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content: flex-start;
+    padding-block: 10%;
+    margin-top: -10%
 }
 
+.viewTitle {
+ /* color: white; */
+}
+
+.viewNum {
+    margin-top: -25%;
+}
+
+
 .cardBody {
-  /* border: solid green; */
-  height: auto;
-  width: 100%;
-  box-sizing: border-box;
-  overflow-wrap: break-word;
+    height: auto;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    padding: 8%;
+    margin-bottom: -8%;
 }
 
 .recipName {
@@ -92,7 +123,8 @@ body {
 }
 
 .playlistTitle {
-
+    font-size: x-small;
+    margin-bottom: -3%;
 }
 
 .playlistName {
@@ -100,11 +132,13 @@ body {
 }
 
 .attachmentsTitle {
-
+    font-size: x-small;
+    margin-bottom: -7%;
 }
 
 .attachementsNum {
-
+    font-size: x-large;
+    color: blue;
 }
 
 /* 1200 PX Card Rules */

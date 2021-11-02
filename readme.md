@@ -16,8 +16,8 @@ Mod1 2108 FE
    - On the command line, type: **$ open index.html**
 
 ## Project Specs
-   - The project spec & rubric can be found [here](https://frontend.turing.edu/projects/module-1/m1-static-comp)
-   - The deployed page can be found ***Deploy Link will Go Here Soon***
+   - The project spec & rubric can be found **[here](https://frontend.turing.edu/projects/module-1/m1-static-comp)**
+   - The deployed page can be found **[here](https://colganmeanor.github.io/Static-Comp/)**
 
 
 
